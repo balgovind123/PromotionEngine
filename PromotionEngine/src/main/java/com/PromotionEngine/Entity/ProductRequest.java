@@ -4,6 +4,14 @@ public class ProductRequest {
 	public String productName;
 	public int quantity;
 
+	
+	
+	public ProductRequest(String productName, int quantity) {
+		super();
+		this.productName = productName;
+		this.quantity = quantity;
+	}
+
 	public String getProductName() {
 		return productName;
 	}
